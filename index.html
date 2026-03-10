@@ -709,8 +709,26 @@
                 grid-template-columns: 1fr;
                 text-align: center;
             }
+
+            .hero-image {
+                height: 300px;
+                border-radius: 20% 20% 20% 20% / 40% 40% 20% 20%;
+            }
+
+            .floating-gold {
+                width: 50px;
+                height: 50px;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem; /* dari 5rem ke 2.5rem */
+            }
             
             .hero-content p {
+                font-size: 1rem;
+                max-width: 100%;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -776,7 +794,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="images/sln1.jpeg" alt="Owner Profile" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            <img src="images/main.jpeg" alt="Owner Profile" style="width: 100%; height: 100%; object-fit: cover; display: block;">
         </div>
     </section>
 
@@ -951,7 +969,7 @@
                     <div class="customer">
                         <div>
                             <div class="customer-name">Aulia Maharani</div>
-                            <div class="customer-title">Klien Bridal</div>
+                            <div class="customer-title">Client Bridal</div>
                         </div>
                     </div>
                 </div>
@@ -978,7 +996,7 @@
                 </div>
                 <div class="info-item">
                     <span class="info-icon">📞</span>
-                    <span>+62813-3765-2741</span>
+                    <span>+62 813-3765-2741</span>
                 </div>
                 <div class="info-item">
                     <span class="info-icon">📧</span>
@@ -1016,7 +1034,7 @@
             <a href="#">💬</a>
         </div>
         <p class="copyright">© 2020 Leovant Beauty Salon. All rights reserved.</p>
-        <p style="color: var(--gold-primary); margin-top: 1rem;">Gold • Cream • Black</p>
+        <p style="color: var(--gold-primary); margin-top: 1rem;">Your Satisfaction, Our Pride.</p>
     </footer>
 
     <div class="floating-gold" onclick="alert('Welcome to Leovant. Experience elegance with us.')">
